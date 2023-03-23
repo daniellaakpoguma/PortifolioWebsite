@@ -1,0 +1,124 @@
+
+.header{
+    display: flex;
+    vertical-align:top;
+    row-gap: 20px;
+    justify-content: space-around;
+}
+
+.name-header{
+    font-size:25px;
+    text-align: left;
+    font-family:Aboreto;
+    padding-left: 50px;
+    color: rgba(222, 120, 162, 0.831);
+}
+
+a{
+    border: none;
+    background-color: white;
+    font-family: Aboreto;
+    font-size: 20px;
+    cursor: pointer;
+    color: black;
+    text-decoration: none;
+    padding-top: 25px;
+    transition: 0.15s;
+}
+
+a:hover{
+    color: rgba(222, 120, 162, 0.831);
+}
+
+.introduction{
+    height: 570px;
+}
+
+.image1{
+    size: 40px;
+}
+
+.introduction-name{
+    font-size: 85px;
+    font-family: Aboreto;
+    text-align: center;
+    padding-top:50px;
+    margin-bottom: 0px;
+}
+
+.introduction-description{
+    text-align: center;
+}
+
+.description{
+    font-family: Dancing Script;
+    font-size: 70px;
+    margin-top: 0px;
+    color:  rgba(244, 158, 194, 0.831);;
+}
+
+.actual-description{
+    font-family: Italiana;
+    font-size: 30px;
+    margin-bottom: 130px;
+}
+
+.view-resume{
+    border-color: black;
+    background-color: rgba(244, 158, 194, 0.831);
+    font-family: Aboreto;
+    font-size:25px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 50px;
+    transition: color   1;
+}
+
+.view-resume:hover{
+    color: white;
+    cursor: pointer;
+    border-color: black;
+}
+
+.about-me{
+    height: 600px;
+}
+
+.section-header{
+    margin-top: 30px;
+    margin-left:20px;
+    font-size: 50px;
+    font-family: Aboreto;
+    color:  rgba(244, 158, 194, 0.831);;
+}
+
+.about-body{
+    margin-left:20px;
+    font-family:Italiana;
+    font-size: 30px;
+    text-align: justify;
+    width: 750px;
+    line-height: 40px;
+}
+
+.contact-me{
+    display:grid;
+}
+
+.contact-header{
+    margin-top: 30px;
+    margin-left:20px;
+    font-size: 50px;
+    font-family: Aboreto;
+    color:  rgba(244, 158, 194, 0.831);
+    text-align: center;
+}
+
+.section-subtitle{
+    font-family: Italiana;
+    font-size: 30px;
+    margin-bottom: 130px;
+    text-align: align;
+}
